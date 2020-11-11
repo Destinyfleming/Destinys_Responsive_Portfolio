@@ -1,0 +1,24 @@
+
+body {
+    background-color: rgb(241, 193, 220);
+}
+
+nav {
+    font-family: 'Slim Jim', 'Impact', 'Arial Black', sans-serif;
+    background: white;
+  }
+  li {
+    display: inline-block;
+    padding: 1rem; 
+    border-left: 1px solid black; 
+     {
+      border-left: none;
+    }
+  }
+  a {
+    color: black
+    text-decoration: none;
+    &:hover {
+      border-bottom: 2px solid white;
+    }
+  }
