@@ -3,12 +3,11 @@
 }
 
 body {
-    color: #fff4f4;
+    color:rgb(255, 255, 255);
     font-size: 1em;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
-    background-color: #d87e7e;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: rgb(204, 144, 144);
     padding: 20px;
-    font-family: Arial;
 }
 
 a {
@@ -18,7 +17,6 @@ a {
 } 
 
 nav {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     background: white;
     padding:0; 
     margin: 0;
@@ -44,7 +42,6 @@ h1 {
 }
 
 h2 {
-    font-family: "Gentium Book Basic", Georgia, serif;
     font-size: 1.2em;
     font-weight: bold;
     margin: 2em 0 1em 0;
@@ -60,14 +57,12 @@ h2 {
 
 .masthead-intro {
     margin-bottom: 0.1em;
-    font-family: "Gentium Book Basic", Georgia, serif;
     font-size: 2em;
 }
 
 .masthead-heading {
     color: darkgreen;
     margin-top: -0.2em;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: bold;
     font-size: 6em;
     letter-spacing: -0.02em;
@@ -143,7 +138,14 @@ h2 {
     background-color: lightpink;
     padding: 10px;
 }
-  
+
+img{
+    border: 1px solid rgb(253, 250, 250);	
+    border-radius: 2px;		
+    width: 150px;				
+    height: auto;				
+}
+
 @media screen and (max-width: 900px) {
     .column {
       width: 50%;
