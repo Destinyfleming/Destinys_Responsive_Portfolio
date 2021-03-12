@@ -6,7 +6,7 @@ body {
     color:rgb(255, 255, 255);
     font-size: 1em;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    background-color: rgb(187, 240, 187);
+    background-color: rgb(162, 191, 214);
     padding: 20px;
 }
 
@@ -17,11 +17,15 @@ a {
 } 
 
 nav {
-    background: rgb(187, 240, 187);
+    background:whitesmoke;
     padding:0; 
     margin: 0;
     text-align: center;
     
+}
+
+#nav-btns{
+    padding: auto;
 }
 
 li {
@@ -59,9 +63,11 @@ h2 {
     margin-bottom: 0.1em;
     font-size: 2em;
 }
-
+.masthead{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5MopQay60F0vjuuAed0lTjxVJj66zMSbQDQ&usqp=CAU)
+}
 .masthead-heading {
-    color: darkgreen;
+    color: lightblue;
     margin-top: -0.2em;
     font-weight: bold;
     font-size: 6em;
@@ -82,7 +88,7 @@ h2 {
   margin: 50px 0;
   padding: 20px 0;
   text-align: center;
-  background-color: darkgreen;
+  background-color:  lightblue;
   text-decoration: none;
 }
 
@@ -135,7 +141,7 @@ h2 {
 }
   
 .content {
-    background-color: darkgreen;
+    background-color: lightblue;
     padding: 10px;
 }
 
@@ -144,6 +150,10 @@ img{
     border-radius: 2px;		
     width: 150px;				
     height: auto;				
+}
+
+.portfolio-txt{
+    color: rgb(129, 137, 250);
 }
 
 @media screen and (max-width: 900px) {
@@ -163,7 +173,7 @@ img{
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;  
-    border: 1px solid rgb(187, 240, 187); 
+    border: 1px solid whitesmoke; 
     border-radius: 15px; 
     box-sizing: border-box; 
     margin-top: 6px; 
@@ -172,7 +182,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color:rgb(141, 141, 253);
     color: white;
     padding: 12px 20px;
     border: none;
